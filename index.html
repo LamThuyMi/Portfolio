@@ -17,255 +17,328 @@
 
 <body>
 
-  <!-- ===== SIDEBAR ===== -->
-  <aside class="sidebar">
-    <div class="sidebar-logo">
-      <div class="name">Lâm<br />Thùy Mị</div>
-      <div class="title-tag">QTKD PSU · Duy Tân</div>
+  <!-- Ambient Background -->
+  <div class="ambient-bg"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Thùy Mị<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#about">Về tôi</a>
+        <a href="#story">Hành trình</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#experience">Kinh nghiệm</a>
+      </nav>
+      <a href="#contact" class="btn-contact">Liên hệ</a>
     </div>
+  </header>
 
-    <nav class="nav-menu">
-      <a href="#home" class="active"><i class="fas fa-house"></i><span>Trang chủ</span></a>
-      <a href="#about"><i class="fas fa-user"></i><span>Giới thiệu</span></a>
-      <a href="#story"><i class="fas fa-book-open"></i><span>Câu chuyện</span></a>
-      <a href="#objective"><i class="fas fa-bullseye"></i><span>Mục tiêu</span></a>
-      <a href="#skills"><i class="fas fa-layer-group"></i><span>Kỹ năng</span></a>
-      <a href="#experience"><i class="fas fa-briefcase"></i><span>Kinh nghiệm</span></a>
-      <a href="#education"><i class="fas fa-graduation-cap"></i><span>Học vấn</span></a>
-      <a href="#contact"><i class="fas fa-envelope"></i><span>Liên hệ</span></a>
-    </nav>
+  <main>
 
-    <div class="sidebar-contact">
-      <p><i class="fas fa-phone"></i> 0793 333 3631</p>
-      <p><i class="fas fa-envelope"></i> shinhan1502<br />@gmail.com</p>
-      <p><i class="fas fa-location-dot"></i> 305/8 Trần Cao Vân</p>
-    </div>
-  </aside>
-
-  <!-- ===== MAIN ===== -->
-  <main class="main">
-
-    <!-- HERO -->
-    <section class="hero" id="home">
-      <div class="hero-text" data-reveal>
-        <p class="greeting">PORTFOLIO · 2026</p>
-        <h1>Xin chào, tôi là<br /><em>Thùy Mị</em></h1>
-        <p class="subtitle">Sinh viên Quản trị Kinh doanh PSU với định hướng phát triển trong lĩnh vực
-          <strong>Marketing</strong> và <strong>Chăm sóc Khách hàng</strong> chuyên nghiệp.
-        </p>
-        <div class="hero-cta">
-          <a href="#contact" class="btn-primary">Liên hệ ngay</a>
-          <a href="#about" class="btn-outline">Xem hồ sơ</a>
+    <!-- HERO SECTION -->
+    <section id="home" class="section">
+      <div class="bento-grid bento-hero">
+        <div class="bento-card col-span-8 row-span-2 hero-content" data-reveal>
+          <div class="badge">Portfolio 2026</div>
+          <h1>Xin chào, tôi là <br><span class="gradient-text">Lâm Thùy Mị</span></h1>
+          <p>Sinh viên Quản trị Kinh doanh PSU với định hướng phát triển trong lĩnh vực <strong>Marketing</strong> và
+            <strong>Chăm sóc Khách hàng</strong> chuyên nghiệp.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">Hợp tác cùng tôi <i class="fas fa-arrow-right"></i></a>
+            <div class="social-links">
+              <a href="mailto:shinhan1502@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="hero-image" data-reveal>
-        <img src="./assets/images/hero.png" alt="Lâm Thùy Mị" />
+        <div class="bento-card col-span-4 hero-image-card p-0" data-reveal="delay-1">
+          <img src="./assets/images/hero.png" alt="Lâm Thùy Mị" />
+        </div>
+        <div class="bento-card col-span-4 highlight-card" data-reveal="delay-2">
+          <i class="fas fa-bullseye"></i>
+          <h3>Marketing & CSKH</h3>
+          <p>Sáng tạo, thấu hiểu, tận tâm</p>
+        </div>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section class="section" id="about">
-      <p class="section-label">Về tôi</p>
-      <h2 class="section-title">Hồ sơ cá nhân</h2>
-      <div class="about-grid" data-reveal>
-        <div class="about-photo">
-          <img src="./assets/images/profile2.jpg" alt="Ảnh cá nhân Thùy Mị" />
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="section-header" data-reveal>
+        <span class="sub-title"><i class="fas fa-user"></i> Hồ sơ cá nhân</span>
+        <h2>Về tôi</h2>
+      </div>
+      <div class="bento-grid">
+        <div class="bento-card col-span-4 row-span-2 profile-img-card p-0" data-reveal>
+          <img src="./assets/images/profile2.jpg" alt="Thùy Mị" />
         </div>
-        <div class="about-body">
-          <div class="welcome-quote" data-reveal>
-            <i class="fas fa-quote-left quote-icon"></i>
-            <p>Rất vui vì bạn đã dừng chân tại website của mình! Mình tin rằng mỗi trải nghiệm đều là một mảnh ghép tạo
-              nên bản sắc riêng. Trang web này được lập ra để mình "gói ghém" tất cả những gì mình đã làm được: từ những
-              kinh nghiệm thực tiễn đầu đời đến những khoảnh khắc quý giá mà mình đã chắt chọc được trên hành trình theo
-              đuổi đam mê. Cảm ơn bạn đã ghé qua và ủng hộ hành trình nhỏ bé nhưng đầy nỗ lực này của mình nhé!</p>
-          </div>
-          <div class="about-meta">
-            <div class="meta-item">
-              <div class="label">Họ và tên</div>
-              <div class="value">Lâm Thùy Mị</div>
+        <div class="bento-card col-span-8 welcome-card" data-reveal="delay-1">
+          <i class="fas fa-quote-left"></i>
+          <p>Rất vui vì bạn đã dừng chân tại website của mình! Mình tin rằng mỗi trải nghiệm đều là một mảnh ghép tạo
+            nên bản sắc riêng. Trang web này được lập ra để mình "gói ghém" tất cả những gì mình đã làm được: từ những
+            kinh nghiệm thực tiễn đầu đời đến những khoảnh khắc quý giá mà mình đã chắt chọc được trên hành trình theo
+            đuổi đam mê. Cảm ơn bạn đã ghé qua và ủng hộ hành trình nhỏ bé nhưng đầy nỗ lực này của mình nhé!</p>
+        </div>
+        <div class="bento-card col-span-8 p-0" style="border:none; box-shadow:none; background:transparent;"
+          data-reveal="delay-2">
+          <div class="info-grid"
+            style="border-radius: var(--radius-lg); padding: 2rem; border: 1px solid var(--border)">
+            <div class="info-item">
+              <span>Ngày sinh</span>
+              <strong>15/02/2005</strong>
             </div>
-            <div class="meta-item">
-              <div class="label">Ngày sinh</div>
-              <div class="value">15/02/2005</div>
+            <div class="info-item">
+              <span>Trường</span>
+              <strong>Đại học Duy Tân</strong>
             </div>
-            <div class="meta-item">
-              <div class="label">Địa chỉ</div>
-              <div class="value">305/8 Trần Cao Vân</div>
+            <div class="info-item">
+              <span>Ngành</span>
+              <strong>QTKD PSU</strong>
             </div>
-            <div class="meta-item">
-              <div class="label">Trường</div>
-              <div class="value">Đại học Duy Tân</div>
-            </div>
-            <div class="meta-item">
-              <div class="label">Ngành</div>
-              <div class="value">QTKD PSU (2023 – 2027)</div>
-            </div>
-            <div class="meta-item">
-              <div class="label">Ngoại ngữ</div>
-              <div class="value">TOEIC 700 · Tiếng Trung</div>
+            <div class="info-item">
+              <span>Ngoại ngữ</span>
+              <strong>TOEIC 700 / Tiếng Trung</strong>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- STORY -->
-    <section class="section" id="story">
-      <p class="section-label">Hành trình</p>
-      <h2 class="section-title">Những đường đua, nước cờ và "Sunshine"</h2>
-      <div class="story-grid" data-reveal>
+    <!-- STORY & OBJECTIVE SECTION (Combined conceptually) -->
+    <section id="story" class="section">
+      <div class="section-header" data-reveal>
+        <span class="sub-title"><i class="fas fa-book-open"></i> Hành trình & Định hướng</span>
+        <h2>Đường đua, nước cờ & Mục tiêu</h2>
+      </div>
+      <div class="bento-grid">
 
-        <div class="story-card">
+        <div class="bento-card col-span-6" data-reveal>
           <div class="story-icon"><i class="fas fa-water"></i></div>
           <h3>Kỷ luật từ đường đua xanh</h3>
-          <p>Mình đã dành <strong>12 năm</strong> bền bỉ để đo lòng bể bơi bằng những sải tay không mệt mỏi. Với vô số
-            thành tích, đường đua xanh đã dạy mình một bài học khắc nghiệt: <em>Dưới nước, dừng lại nghĩa là chìm.</em>
-            Chính áp lực ấy đã nhào nặn nên trong mình một bản lĩnh không bao giờ bỏ cuộc.</p>
+          <p>Dành <strong>12 năm</strong> bền bỉ đo lòng bể bơi bằng những sải tay không mệt mỏi. Bài học khắc nghiệt:
+            <em>Dưới nước, dừng lại nghĩa là chìm.</em> Áp lực ấy nhào nặn nên bản lĩnh không bao giờ bỏ cuộc.</p>
         </div>
 
-        <div class="story-card">
+        <div class="bento-card col-span-6" data-reveal="delay-1">
           <div class="story-icon"><i class="fas fa-pause-circle"></i></div>
           <h3>Khoảng lặng & sự thừa nhận</h3>
-          <p>Rời xa đường đua xanh, mình từng có một quãng nghỉ dài chỉ để đối diện với chính mình. Mình nhận ra:
-            <em>Vùng an toàn là một nơi rất đẹp, nhưng chẳng có gì có thể lớn lên ở đó cả.</em> Mình đã đứng yên đủ lâu
-            để hiểu rằng, thay vì chờ đợi, mình cần một "cú nhảy" mới ngay trên cạn.
-          </p>
+          <p><em>Vùng an toàn là nơi rất đẹp, nhưng chẳng có gì lớn lên ở đó.</em> Mình đã đứng yên đủ lâu để hiểu rằng
+            cần một "cú nhảy" mới trên cạn để tiếp tục phát triển.</p>
         </div>
 
-        <div class="story-card">
+        <div class="bento-card col-span-6" data-reveal>
           <div class="story-icon"><i class="fas fa-chess"></i></div>
           <h3>Lật ngược ván cờ tại Duy Tân</h3>
-          <p>Mình chọn Quản trị Kinh doanh như một cách để tái cấu trúc tư duy. Không còn những cú bứt tốc dưới nước,
-            mình chọn sự kiên trì thầm lặng: <em>Tiến bộ 1% mỗi ngày</em> qua từng khóa học và chứng chỉ. Mỗi kiến thức
-            mới là một nước đi chiến lược để định vị lại bản thân.</p>
+          <p>Khóa học QTKD giúp tái cấu trúc tư duy. Tiến bộ 1% mỗi ngày. Mỗi kiến thức mới là một nước đi chiến lược để
+            định vị lại bản thân một cách chắc chắn.</p>
         </div>
 
-        <div class="story-card story-card--highlight">
-          <div class="story-icon"><i class="fas fa-sun"></i></div>
+        <div class="bento-card col-span-6" style="background: var(--accent-bg); border-color: var(--accent-light);"
+          data-reveal="delay-1">
+          <div class="story-icon" style="background:#fff; color:var(--accent);"><i class="fas fa-sun"></i></div>
           <h3>Sunshine & Hiện tại</h3>
-          <p>Mình chuyển hóa sự điềm tĩnh của một kình ngư thành sự sắc sảo của một <strong>HLV & Trọng tài Cờ vua quốc
-              gia</strong>, điều hành những quyết định cân não tại các giải đấu lớn miền Trung. Với mình, Quản trị không
-            chỉ là vận hành mà còn là sự tử tế — đó là lý do mình sáng lập <strong>Fanpage Sunshine</strong>, nơi dùng
-            tư duy chiến lược để kết nối những tấm lòng và lan tỏa giá trị cho cộng đồng.</p>
+          <p>Chuyển hóa sự điềm tĩnh thành sắc sảo của một <strong>HLV & Trọng tài Cờ vua quốc gia</strong>. Quản trị là
+            sự tử tế, sáng lập <strong>Fanpage Sunshine</strong> để kết nối tấm lòng và lan tỏa giá trị cộng đồng.</p>
+        </div>
+
+        <!-- Objectives list packed in a wide card -->
+        <div class="bento-card col-span-12" data-reveal="delay-2">
+          <h3 style="margin-bottom: 1.5rem; text-align: center;">Mục tiêu nghề nghiệp</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+            <div class="objective-item">
+              <i class="fas fa-rocket"></i>
+              <p>Sinh viên cầu tiến, không ngại bước ra khỏi vùng an toàn.</p>
+            </div>
+            <div class="objective-item">
+              <i class="fas fa-chess-knight"></i>
+              <p>Thế mạnh tư duy chiến lược từ thể thao, kỹ năng thấu hiểu khách hàng.</p>
+            </div>
+            <div class="objective-item">
+              <i class="fas fa-chart-line"></i>
+              <p>Phát triển trong lĩnh vực <strong>Marketing & CSKH</strong> tại môi trường năng động.</p>
+            </div>
+          </div>
         </div>
 
       </div>
     </section>
 
-    <!-- OBJECTIVE -->
-    <section class="section" id="objective">
-      <p class="section-label">Định hướng</p>
-      <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
-      <div class="objective-box" data-reveal>
-        <div class="objective-item">
-          <div class="obj-icon"><i class="fas fa-rocket"></i></div>
-          <p>Sinh viên ngành Quản trị Kinh doanh với tinh thần cầu tiến, không ngại bước ra khỏi vùng an toàn.</p>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="section-header" data-reveal>
+        <span class="sub-title"><i class="fas fa-layer-group"></i> Năng lực</span>
+        <h2>Kỹ năng chuyên môn</h2>
+      </div>
+      <div class="bento-grid">
+
+        <div class="bento-card col-span-6 skills-container" data-reveal>
+          <h3 style="margin-bottom: 2rem;">Kỹ năng mềm</h3>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-header">
+              <span><i class="fas fa-comments"></i> Giao tiếp</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--w: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-header">
+              <span><i class="fas fa-people-group"></i> Làm việc nhóm</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--w: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-header">
+              <span><i class="fas fa-clock"></i> Quản lý thời gian</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--w: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-header">
+              <span><i class="fas fa-lightbulb"></i> Giải quyết vấn đề</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--w: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-bar-wrapper" style="margin-bottom:0;">
+            <div class="skill-bar-header">
+              <span><i class="fas fa-calculator"></i> Tính toán chuyên ngành</span>
+              <span>70%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--w: 70%"></div>
+            </div>
+          </div>
         </div>
-        <div class="objective-item">
-          <div class="obj-icon"><i class="fas fa-chess-knight"></i></div>
-          <p>Có thế mạnh về tư duy chiến lược từ thể thao, kỹ năng thấu hiểu khách hàng và tổ chức, vận hành dự án thực
-            tế.</p>
+
+        <div class="bento-card col-span-6" style="justify-content: center;" data-reveal="delay-1">
+          <h3 style="text-align: center; margin-bottom: 0.5rem;">Công cụ & Phần mềm</h3>
+          <p style="text-align: center; color: var(--text-muted); margin-bottom: 1.5rem;">Nhóm phần mềm thành thạo sử
+            dụng trong học tập và công việc</p>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <img src="https://img.icons8.com/color/48/ms-word.png" alt="Word" />
+              <span>MS Word</span>
+            </div>
+            <div class="tool-item">
+              <img src="https://img.icons8.com/color/48/ms-excel.png" alt="Excel" />
+              <span>MS Excel</span>
+            </div>
+            <div class="tool-item">
+              <img src="https://img.icons8.com/color/48/microsoft-powerpoint-2019.png" alt="PowerPoint" />
+              <span>PowerPoint</span>
+            </div>
+            <div class="tool-item">
+              <img src="https://img.icons8.com/color/48/canva.png" alt="Canva" />
+              <span>Canva</span>
+            </div>
+          </div>
         </div>
-        <div class="objective-item">
-          <div class="obj-icon"><i class="fas fa-chart-line"></i></div>
-          <p>Mong muốn phát triển trong lĩnh vực <strong>Marketing & CSKH</strong> tại một môi trường năng động, sáng
-            tạo.</p>
-        </div>
-        <div class="objective-item">
-          <div class="obj-icon"><i class="fas fa-heart"></i></div>
-          <p>Đóng góp vào việc tối ưu hóa trải nghiệm khách hàng, lan tỏa thông điệp thương hiệu và tạo ra những giá trị
-            bền vững cho cả doanh nghiệp lẫn cộng đồng.</p>
-        </div>
+
       </div>
     </section>
 
-    <!-- SKILLS -->
-    <section class="section" id="skills">
-      <p class="section-label">Năng lực</p>
-      <h2 class="section-title">Kỹ năng</h2>
-      <div class="skills-layout" data-reveal>
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+      <div class="section-header" data-reveal>
+        <span class="sub-title"><i class="fas fa-briefcase"></i> Thực chiến thực tế</span>
+        <h2>Kinh nghiệm & Học vấn</h2>
+      </div>
+      <div class="bento-grid">
 
-        <!-- Progress skills -->
-        <div class="skill-bars">
-          <div class="skill-bar-item">
-            <div class="skill-bar-header">
-              <span class="skill-bar-name"><i class="fas fa-comments"></i> Kỹ năng giao tiếp</span>
-              <span class="skill-bar-pct">90%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="--w:90%"></div>
-            </div>
-          </div>
-          <div class="skill-bar-item">
-            <div class="skill-bar-header">
-              <span class="skill-bar-name"><i class="fas fa-people-group"></i> Làm việc nhóm</span>
-              <span class="skill-bar-pct">90%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="--w:90%"></div>
-            </div>
-          </div>
-          <div class="skill-bar-item">
-            <div class="skill-bar-header">
-              <span class="skill-bar-name"><i class="fas fa-clock"></i> Quản lý thời gian</span>
-              <span class="skill-bar-pct">80%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="--w:80%"></div>
-            </div>
-          </div>
-          <div class="skill-bar-item">
-            <div class="skill-bar-header">
-              <span class="skill-bar-name"><i class="fas fa-lightbulb"></i> Giải quyết vấn đề</span>
-              <span class="skill-bar-pct">80%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="--w:80%"></div>
-            </div>
-          </div>
-          <div class="skill-bar-item">
-            <div class="skill-bar-header">
-              <span class="skill-bar-name"><i class="fas fa-calculator"></i> Phần mềm tính toán chuyên ngành</span>
-              <span class="skill-bar-pct">70%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="--w:70%"></div>
-            </div>
-          </div>
-        </div>
+        <div class="bento-card col-span-7" data-reveal>
+          <h3 style="margin-bottom: 2rem;"><i class="fas fa-briefcase"
+              style="color:var(--accent); margin-right:8px;"></i> Kinh nghiệm làm việc</h3>
+          <div class="timeline">
 
-        <!-- Tool chips -->
-        <div class="skill-tools">
-          <div class="tools-title"><i class="fas fa-laptop-code"></i> Công cụ thành thạo</div>
-          <div class="skill-items">
-            <div class="skill-item">
-              <div class="skill-icon"><img src="https://img.icons8.com/color/48/ms-word.png" alt="" /></div>
-              <div class="skill-name">Microsoft Word</div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon"><img src="https://img.icons8.com/color/48/ms-excel.png" alt="" /></div>
-              <div class="skill-name">Microsoft Excel</div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon"><img src="https://img.icons8.com/color/48/microsoft-powerpoint-2019.png" alt="" />
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">2025 – Nay</span>
+                <h3>Hera Studio</h3>
+                <div class="tl-sub"><i class="fas fa-camera"></i> 307 Nguyễn Phước Nguyên | Sale · CSKH · Quản trị
+                  Fanpage</div>
+                <ul>
+                  <li>Phân loại, tư vấn dữ liệu từ khách hàng để upsell các chương trình các gói chụp, hỗ trợ đúng nhu
+                    cầu.</li>
+                  <li>Hậu thuẫn sau gói chụp, chăm sóc trải nghiệm, tư vấn hình ảnh.</li>
+                  <li>Theo dõi chỉ số tương tác, tối ưu hóa độ nhận diện.</li>
+                </ul>
+                <div class="tl-achievement"><i class="fas fa-trophy"></i> Đạt KPI >25 triệu liên tục 6 tháng — Top Sale
+                </div>
               </div>
-              <div class="skill-name">PowerPoint</div>
             </div>
-            <div class="skill-item">
-              <div class="skill-icon"><img src="https://img.icons8.com/color/48/canva.png" alt="" /></div>
-              <div class="skill-name">Canva</div>
-            </div>
-          </div>
 
-          <div class="tools-title" style="margin-top:1.5rem;"><i class="fas fa-language"></i> Ngôn ngữ</div>
-          <div class="skill-items">
-            <div class="skill-item">
-              <div class="skill-icon"><img src="https://img.icons8.com/color/48/great-britain.png" alt="" /></div>
-              <div class="skill-name">Tiếng Anh · TOEIC 700</div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">2024 – Nay</span>
+                <h3>HLV & Trọng tài Cờ vua</h3>
+                <div class="tl-sub"><i class="fas fa-chess"></i> Cấp Quốc gia · Đà Nẵng</div>
+                <ul>
+                  <li>Giảng dạy, rèn luyện tư duy, sự kiên nhẫn và kỹ năng tâm lý cho học viên.</li>
+                  <li>Trọng tài đảm bảo tính công bằng, minh bạch giải đấu.</li>
+                </ul>
+              </div>
             </div>
-            <div class="skill-item">
-              <div class="skill-icon"><img src="https://img.icons8.com/color/48/china.png" alt="" /></div>
-              <div class="skill-name">Tiếng Trung</div>
+
+            <div class="tl-item" style="margin-bottom: 0;">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">2023 – 2025</span>
+                <h3>Tiệm chụp ảnh bé và gia đình</h3>
+                <div class="tl-sub"><i class="fas fa-tag"></i> 307 Nguyễn Phước Nguyên | Sale · CSKH</div>
+                <ul>
+                  <li>Phân loại, tư vấn, upsell các gói chụp phù hợp nhất.</li>
+                  <li>Hỏi thăm vào các dịp lễ quan trọng (sinh nhật, thôi nôi).</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="bento-card col-span-5" style="display:flex; flex-direction:column; justify-content:space-between;"
+          data-reveal="delay-1">
+          <div>
+            <h3 style="margin-bottom: 2rem;"><i class="fas fa-graduation-cap"
+                style="color:var(--accent); margin-right:8px;"></i> Học vấn</h3>
+            <div class="timeline" style="margin-bottom: 3rem;">
+              <div class="tl-item" style="margin-bottom: 0;">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                  <span class="tl-date">2023 – 2027</span>
+                  <h3>Đại học Duy Tân</h3>
+                  <div class="tl-sub"><i class="fas fa-university"></i> Chương trình PSU Transfer</div>
+                  <p style="color:var(--text-muted); font-size:0.95rem; line-height:1.7;">Cử nhân Quản trị Kinh doanh.
+                    Hợp tác chuẩn Penn State University. Tập trung quản trị hiện đại, marketing & tư duy quốc tế.</p>
+                </div>
+              </div>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem;"><i class="fas fa-users"
+                style="color:var(--accent); margin-right:8px;"></i> Hoạt động</h3>
+            <div style="display:flex; flex-direction:column; gap:1rem;">
+              <div
+                style="background:var(--bg); border:1px solid var(--border); padding:1rem; border-radius:var(--radius-sm);">
+                <strong>CLB Sunshine</strong>
+                <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.3rem;">Chủ nhiệm CLB sinh viên tình
+                  nguyện</p>
+              </div>
+              <div
+                style="background:var(--bg); border:1px solid var(--border); padding:1rem; border-radius:var(--radius-sm);">
+                <strong>CLB International Artistry</strong>
+                <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.3rem;">Thành viên Ban Sự kiện</p>
+              </div>
             </div>
           </div>
         </div>
@@ -273,196 +346,70 @@
       </div>
     </section>
 
-    <!-- EXPERIENCE -->
-    <section class="section" id="experience">
-      <p class="section-label">Kinh nghiệm</p>
-      <h2 class="section-title">Thực chiến thực tế</h2>
-      <div class="timeline">
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="section-header" data-reveal>
+        <span class="sub-title"><i class="fas fa-envelope"></i> Kết nối</span>
+        <h2>Liên hệ với tôi</h2>
+        <p style="color:var(--text-muted); max-width: 600px; margin: 1rem auto; font-size: 1.1rem;">Mình luôn sẵn sàng
+          lắng nghe những cơ hội mới và hợp tác cùng các doanh nghiệp tiến bộ. Hãy gửi lời chào!</p>
+      </div>
 
-        <div class="tl-item" data-reveal>
-          <div class="tl-date"><span>2023 – 2025</span></div>
-          <div class="tl-body">
-            <h3>Tiệm chụp ảnh bé và gia đình</h3>
-            <div class="tl-sub">307 Nguyễn Phước Nguyên</div>
-            <div class="tl-role"><i class="fas fa-tag" style="margin-right:6px;"></i>Sale · CSKH</div>
-            <ul>
-              <li>Phân loại, tư vấn dữ liệu từ khách hàng để upsell các chương trình về các gói chụp, hỗ trợ khách hàng
-                tìm được đúng gói chụp đúng nhu cầu.</li>
-              <li>Hậu thuẫn khách hàng sau gói chụp, chăm sóc hỏi thăm thường xuyên khi gần tới các dịp lễ quan trọng
-                (sinh nhật, thôi nôi, kỉ niệm).</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="tl-item" data-reveal>
-          <div class="tl-date"><span>2025 – Nay</span></div>
-          <div class="tl-body">
-            <h3>Hera Studio</h3>
-            <div class="tl-sub">307 Nguyễn Phước Nguyên</div>
-            <div class="tl-role"><i class="fas fa-tag" style="margin-right:6px;"></i>Sale · CSKH · Quản trị viên Fanpage
+      <div class="bento-grid" data-reveal="delay-1">
+        <div class="bento-card col-span-12" style="padding: 1.5rem;">
+          <div class="contact-grid">
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info">
+                <span>Email</span>
+                <strong>shinhan1502@gmail.com</strong>
+              </div>
             </div>
-            <ul>
-              <li>Phân loại, tư vấn dữ liệu từ khách hàng để upsell các chương trình về các gói chụp, hỗ trợ khách hàng
-                tìm được đúng gói chụp đúng nhu cầu.</li>
-              <li>Hậu thuẫn khách hàng sau gói chụp, chăm sóc hỏi thăm về trải nghiệm, tư vấn hỗ trợ về hình ảnh.</li>
-              <li>Theo dõi các chỉ số tương tác, tối ưu hóa độ nhận diện khách hàng.</li>
-            </ul>
-            <div class="tl-achievement"><i class="fas fa-trophy"></i> Đạt KPI trên 25 triệu liên tục 6 tháng — luôn là
-              Top Sale</div>
-          </div>
-        </div>
-
-        <div class="tl-item" data-reveal>
-          <div class="tl-date"><span>2024 – Nay</span></div>
-          <div class="tl-body">
-            <h3>Huấn luyện viên & Trọng tài Cờ vua</h3>
-            <div class="tl-sub">Cấp Quốc gia · Đà Nẵng</div>
-            <div class="tl-role"><i class="fas fa-chess" style="margin-right:6px;"></i>HLV Cờ vua Quốc gia · Trọng tài
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info">
+                <span>Điện thoại</span>
+                <strong>0793 333 3631</strong>
+              </div>
             </div>
-            <ul>
-              <li>Giảng dạy, rèn luyện tư duy và sự kiên nhẫn cho học viên, đồng thời phát triển kỹ năng tâm lý cho mỗi
-                học viên.</li>
-              <li>Tham gia công tác trọng tài, đảm bảo tính công bằng, minh bạch và giải quyết các tình huống trong quá
-                trình thi đấu.</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Activities -->
-      <div class="activities-block" data-reveal>
-        <div class="act-title"><i class="fas fa-users"></i> Hoạt động & CLB</div>
-        <div class="act-items">
-          <div class="act-item">
-            <i class="fas fa-star"></i>
-            <span>Thành viên Ban Sự kiện CLB <em>International Artistry & Rhythmic Talents</em></span>
-          </div>
-          <div class="act-item">
-            <i class="fas fa-sun"></i>
-            <span>Chủ nhiệm CLB <em>Sunshine</em> – CLB sinh viên tình nguyện</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section class="section" id="education">
-      <p class="section-label">Học vấn</p>
-      <h2 class="section-title">Hành trình học tập</h2>
-      <div class="timeline">
-        <div class="tl-item" data-reveal>
-          <div class="tl-date"><span>2023 – 2027</span></div>
-          <div class="tl-body">
-            <h3>Đại học Duy Tân – Đà Nẵng</h3>
-            <div class="tl-sub">112 Hoàng Minh Thảo</div>
-            <div class="tl-role"><i class="fas fa-graduation-cap" style="margin-right:6px;"></i>Cử nhân Quản trị Kinh
-              doanh (PSU Transfer Program)</div>
-            <p>Chương trình hợp tác chuẩn Penn State University (Hoa Kỳ). Tập trung vào quản trị hiện đại, marketing và
-              tư duy kinh doanh quốc tế.</p>
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+              <div class="contact-info">
+                <span>Địa chỉ</span>
+                <strong>305/8 Trần Cao Vân, Đà Nẵng</strong>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon" style="color: #10b981;"><i class="fas fa-check-circle"></i></div>
+              <div class="contact-info">
+                <span style="color:#10b981;">Trạng thái</span>
+                <strong>Đang tìm kiếm cơ hội</strong>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Certificates -->
-      <div class="cert-grid" data-reveal>
-        <div class="cert-item">
-          <div class="cert-icon"><i class="fas fa-chess-king"></i></div>
-          <div class="cert-body">
-            <div class="cert-name">Huấn luyện viên Cờ vua Quốc gia</div>
-            <div class="cert-issuer">Liên đoàn Cờ vua Việt Nam</div>
-          </div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-icon"><i class="fas fa-database"></i></div>
-          <div class="cert-body">
-            <div class="cert-name">Foundations: Data, Data, Everywhere</div>
-            <div class="cert-issuer">Google · Coursera</div>
-          </div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-icon"><i class="fas fa-diagram-project"></i></div>
-          <div class="cert-body">
-            <div class="cert-name">Project Initiation: Starting a Successful Project</div>
-            <div class="cert-issuer">Google · Coursera</div>
-          </div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-icon"><i class="fas fa-chart-bar"></i></div>
-          <div class="cert-body">
-            <div class="cert-name">Foundations of Business Intelligence</div>
-            <div class="cert-issuer">Google · Coursera</div>
-          </div>
-        </div>
-        <div class="cert-item">
-          <div class="cert-icon"><i class="fas fa-boxes-stacked"></i></div>
-          <div class="cert-body">
-            <div class="cert-name">The Business of Product Management I</div>
-            <div class="cert-issuer">UC San Diego · Coursera</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section" id="contact">
-      <p class="section-label">Liên hệ</p>
-      <h2 class="section-title">Kết nối cùng tôi</h2>
-      <p data-reveal
-        style="font-size:0.95rem; color:var(--text-muted); margin-bottom:2rem; max-width:500px; line-height:1.8;">
-        Mình luôn sẵn sàng lắng nghe những cơ hội mới và hợp tác cùng các doanh nghiệp tiến bộ. Hãy gửi lời chào!
-      </p>
-      <div class="contact-grid" data-reveal>
-        <div class="contact-card">
-          <div class="c-icon"><i class="fas fa-envelope"></i></div>
-          <div>
-            <div class="c-label">Email</div>
-            <div class="c-value">shinhan1502@gmail.com</div>
-          </div>
-        </div>
-        <div class="contact-card">
-          <div class="c-icon"><i class="fas fa-phone"></i></div>
-          <div>
-            <div class="c-label">Điện thoại</div>
-            <div class="c-value">0793 333 3631</div>
-          </div>
-        </div>
-        <div class="contact-card">
-          <div class="c-icon"><i class="fas fa-location-dot"></i></div>
-          <div>
-            <div class="c-label">Địa chỉ</div>
-            <div class="c-value">305/8 Trần Cao Vân, Đà Nẵng</div>
-          </div>
-        </div>
-        <div class="contact-card">
-          <div class="c-icon"><i class="fas fa-calendar-check"></i></div>
-          <div>
-            <div class="c-label">Trạng thái</div>
-            <div class="c-value" style="color:#16a34a;">Đang tìm kiếm cơ hội</div>
-          </div>
-        </div>
-      </div>
-      <div style="margin-top:2rem;" data-reveal>
-        <a href="mailto:shinhan1502@gmail.com" class="btn-primary"
-          style="display:inline-flex;align-items:center;gap:0.6rem;">
+      <div style="text-align: center; margin-top: 3rem;" data-reveal="delay-2">
+        <a href="mailto:shinhan1502@gmail.com" class="btn-primary" style="font-size: 1.1rem; padding: 1.2rem 2.5rem;">
           <i class="fas fa-paper-plane"></i> Gửi Email ngay
         </a>
       </div>
-    </section>
 
-    <footer
-      style="text-align:center; padding:2.5rem 0 1.5rem; color:var(--text-muted); font-size:0.8rem; border-top:1px solid var(--border); margin-top:1rem;">
-      &copy; 2026 Lâm Thùy Mị &nbsp;·&nbsp; All rights reserved
-    </footer>
+    </section>
 
   </main>
 
+  <footer>
+    &copy; 2026 Lâm Thùy Mị &nbsp;·&nbsp; Chăm sóc khách hàng & Marketing chuyên nghiệp
+  </footer>
+
   <script>
-    // Reveal on Scroll
+    // Reveal Animations
     const reveals = document.querySelectorAll('[data-reveal]');
     const revealFn = () => {
       reveals.forEach(el => {
-        if (el.getBoundingClientRect().top < window.innerHeight * 0.9) {
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.85) {
           el.classList.add('revealed');
         }
       });
@@ -470,22 +417,7 @@
     window.addEventListener('scroll', revealFn);
     window.addEventListener('load', revealFn);
 
-    // Active Nav
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav-menu a');
-    const activateNav = () => {
-      let cur = '';
-      sections.forEach(s => {
-        if (window.scrollY >= s.offsetTop - 120) cur = s.getAttribute('id');
-      });
-      navLinks.forEach(a => {
-        a.classList.toggle('active', a.getAttribute('href') === `#${cur}`);
-      });
-    };
-    window.addEventListener('scroll', activateNav);
-    window.addEventListener('load', activateNav);
-
-    // Animate skill bars on scroll
+    // Skill Bar Animations
     const bars = document.querySelectorAll('.skill-bar-fill');
     const barObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -496,6 +428,31 @@
       });
     }, { threshold: 0.3 });
     bars.forEach(b => barObserver.observe(b));
+
+    // Navbar active state mapping
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const activateNav = () => {
+      let currentId = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 200) currentId = s.getAttribute('id');
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === `#${currentId}`);
+      });
+
+      // Floating Navbar Style
+      const nav = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        nav.style.boxShadow = '0 10px 40px rgba(139, 58, 143, 0.15)';
+        nav.style.padding = '0.6rem 2rem';
+      } else {
+        nav.style.boxShadow = '0 4px 30px rgba(0, 0, 0, 0.04)';
+        nav.style.padding = '0.8rem 2rem';
+      }
+    };
+    window.addEventListener('scroll', activateNav);
+    window.addEventListener('load', activateNav);
   </script>
 </body>
 
